@@ -8,7 +8,6 @@ export default function Home() {
     return (
         <div className="relative min-h-screen bg-gradient-to-br bg-opacity-25 from-purple-500/20 to-indigo-500/20">
             <main className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-6 lg:p-24 gap-10">
-                {/* Main content section */}
                 <div className="flex flex-col items-center lg:items-start w-full max-w-2xl mb-10 lg:mb-0 text-center lg:text-left">
                     <h1 className="font-semibold text-4xl lg:text-8xl mb-6">Elements API</h1>
 
