@@ -46,7 +46,7 @@ export default function Home() {
 
                 <div className="w-full lg:w-1/3">
                     <div className="p-6 flex flex-col items-center">
-                        <h2 className="text-2xl lg:text-3xl font-semibold mb-6 text-white">Example Responses</h2>
+                        <h2 className="text-2xl lg:text-3xl font-semibold mb-6">Example Responses</h2>
                         <Examples />
                     </div>
                 </div>
