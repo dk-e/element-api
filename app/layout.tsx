@@ -5,6 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+    metadataBase: new URL("https://elements.apis.lol"),
     title: "Elements API",
     description: "Fetch information about the elements in the periodic table",
 };
