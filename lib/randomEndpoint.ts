@@ -281,7 +281,7 @@ const randomEndpoint = () => {
     ];
 
     const endpoints: any = {
-        1: `/api/elements?limit=${limit}`,
+        1: `api/elements?limit=${limit}`,
         2: `api/elements/atomicNumber/${atomicNumber}`,
         3: `api/elements/block/${blocks[block - 1]}?limit=${limit}`,
         4: `api/elements/bondingType/${bondingTypes[bondingType - 1]}?limit=${limit}`,
